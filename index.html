@@ -1,72 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Awesome Profile Portal</title>
-  <style>
-    body {
-      background: linear-gradient(45deg, red, blue, green, yellow);
-      font-family: Comic Sans MS, cursive, sans-serif;
-      animation: spin 60s linear infinite;
-      overflow-x: scroll;
-    }
-    @keyframes spin {
-      from { filter: hue-rotate(0deg); }
-      to { filter: hue-rotate(360deg); }
-    }
-    .profile {
-      border: 10px dashed magenta;
-      margin: 50px;
-      padding: 40px;
-      transform: rotate(-3deg);
-      box-shadow: 10px 10px 50px lime;
-      background: url('https://www.toptal.com/designers/subtlepatterns/patterns/linedpaper.png');
-      width: 90%;
-    }
-    .profile img {
-      border: 5px double orange;
-      border-radius: 0%;
-      width: 150px;
-      height: 150px;
-      float: left;
-      margin-right: 20px;
-      transform: skewY(10deg);
-    }
-    marquee {
-      font-size: 32px;
-      color: cyan;
-      background: black;
-    }
-    .info {
-      font-size: 20px;
-      background-color: rgba(255,255,255,0.6);
-      border: 3px dotted red;
-      padding: 20px;
-      margin-top: 30px;
-      transform: rotate(1deg);
-    }
-    .blinking {
-      animation: blink 1s infinite;
-    }
-    @keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 0; }
-      100% { opacity: 1; }
-    }
-  </style>
+  <title>Portal</title>
 </head>
-<body>
-  <marquee behavior="scroll" direction="left">🔥 Welcome to My Profile Portal of Chaos 🔥</marquee>
-
-  <div class="profile">
-    <img src="https://via.placeholder.com/150" alt="Profile Pic">
-    <h1 class="blinking">John Doe</h1>
-    <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. 
-      Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. 
-      This is my profile and I am awesome. Contact me at: <a href="mailto:chaos@web.net">chaos@web.net</a></p>
-    <p class="info">Skills: HTML, CSS, Running from bugs, Multitasking in mayhem, Using every font ever.</p>
-    <p class="info blinking">🚨 This portal is under *constant* construction 🚧</p>
+<body style="font-family: Comic Sans MS; background: lime; color: red;">
+  <h1>ELWP Volunteer</h1>
+  <img src="logoelwp.jpeg" width="100">
+  <nav>
+    <a href="#">Explore</a>
+    <a href="#">Events</a>
+    <a href="#">Chats</a>
+    <a href="#">Projects</a>
+  </nav>
+  <div>
+    <h2>Jenice W.</h2>
+    <p>Designer @ Luminous</p>
+    <img src="https://via.placeholder.com/80">
   </div>
-
-  <div style="position: fixed; bottom: 0; right: 0; background: hotpink; padding: 20px; font-size: 18px; border: 5px ridge yellow;">Subscribe now! 🔔</div>
+  <h3>Circles</h3>
+  <p>Luminous, WIT, Designers</p>
+  <h3>Projects</h3>
+  <p>Project 1, Project 2</p>
 </body>
 </html>
